@@ -4,7 +4,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-url = 'http://192.168.1.120:5000/api/DJ/'
+url = 'http://192.168.1.7:5000/api/DJ/'
 data = [
     "wave",
     "sparkle",
