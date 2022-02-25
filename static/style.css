@@ -1,0 +1,17 @@
+.btn-square-md {
+    width: 100px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 100px !important;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.btn-primary2 {
+    font-weight: bold;
+    font-size: medium;
+    color: #fff;
+    background-color: #c700ff;
+    border-color: #c200ff;
+}
