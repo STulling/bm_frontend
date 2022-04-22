@@ -1,11 +1,31 @@
+.main {
+    min-height: 100%;
+    margin: 0;
+}
+
+.background {
+    background: repeating-linear-gradient(
+            60deg,
+            transparent,
+            transparent 2px,
+            rgb(46, 46, 46) 2px,
+            rgb(46, 46, 46) 10px
+    ),
+    linear-gradient(
+            120deg,
+            rgb(46, 46, 46) 20%,
+            rgb(71, 71, 71)
+    );
+}
+
 .btn-square-md {
-    width: 100px !important;
+    width: 100px;
+    height: 100px;
     max-width: 100% !important;
     max-height: 100% !important;
-    height: 100px !important;
     text-align: center;
-    margin: auto;
-    margin-top: 20px;
+    margin: 5px;
+    border-radius: 20px 5px 20px 5px;
 }
 
 .btn-primary2 {
@@ -14,4 +34,14 @@
     color: #fff;
     background-color: #c700ff;
     border-color: #c200ff;
+}
+
+.navbar-dark {
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+}
+
+.flex-wrap {
+    justify-content: center;
+    padding-top: 20px;
 }
