@@ -9,19 +9,19 @@ header {
 }
 
 .background {
-    background: black;
-    /*background: repeating-linear-gradient(*/
-    /*        60deg,*/
-    /*        transparent,*/
-    /*        transparent 2px,*/
-    /*        rgb(46, 46, 46) 2px,*/
-    /*        rgb(46, 46, 46) 10px*/
-    /*),*/
-    /*linear-gradient(*/
-    /*        120deg,*/
-    /*        rgb(46, 46, 46) 20%,*/
-    /*        rgb(71, 71, 71)*/
-    /*);*/
+    background: repeating-linear-gradient(
+            60deg,
+            transparent,
+            transparent 2px,
+            rgb(14, 14, 14) 2px,
+            rgb(14, 14, 14) 10px
+    ),
+    linear-gradient(
+            120deg,
+            rgb(14, 14, 14) 20%,
+            rgb(0, 0, 0),
+            rgb(14, 14, 14) 100%
+    );
 }
 
 .navbar {
